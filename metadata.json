@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Tulips Grand",
+  "description": "Discover Hotel Tulips Grand in Suraram, Hyderabad — a contemporary destination for dining, stays and celebrations near Malla Reddy Health City.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

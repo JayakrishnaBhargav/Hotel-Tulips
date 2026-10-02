@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --color-primary-dark: #11110F;
+    --color-dark-secondary: #1B1A17;
+    --color-warm-ivory: #F4F0E7;
+    --color-soft-beige: #DED6C7;
+    --color-champagne-gold: #C6A15B;
+    --color-muted-gold: #9E8148;
+    --color-muted-text: #A7A39A;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-primary-dark);
+    color: var(--color-warm-ivory);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom luxury transitions and utility */
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Subtle luxury gold gradient line */
+.gold-line {
+  background: linear-gradient(90deg, transparent, #C6A15B, transparent);
+}
+
+.gold-border {
+  border-color: rgba(198, 161, 91, 0.25);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(198, 161, 91, 0.15);
+}
+
+/* Hide scrollbars for smooth aesthetic horizontal scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
